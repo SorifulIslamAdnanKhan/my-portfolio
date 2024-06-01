@@ -1,10 +1,11 @@
-import React from "react";
 import MainMenu from "./MainMenu";
+import Banner from "./Banner";
 
 const Header = () => {
   return (
     <div>
       <MainMenu />
+      <Banner />
     </div>
   );
 };
