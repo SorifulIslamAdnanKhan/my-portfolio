@@ -1,13 +1,13 @@
 import Image from "next/image";
-import { Button } from "@nextui-org/react";
-import adnanImage from "@/assets/adnan.jpg";
+import { Link, Button } from "@nextui-org/react";
+import adnanImageTwo from "@/assets/adnan-two.jpg";
 
 const About = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2  justify-center items-center gap-16 px-6 mt-16 max-w-[1024px] mx-auto">
       <div className="w-full lg:max-w-[512px] max-auto order-last lg:order-first">
         <Image
-          src={adnanImage}
+          src={adnanImageTwo}
           className="w-full md:max-w-[450px] mx-auto"
           alt="K. M. Soriful Islam Adnan"
         />
@@ -38,7 +38,14 @@ const About = () => {
           expertise. If you are looking for a dedicated web developer feel free
           to reach out.
         </p>
-        <Button className="mt-5" color="primary" variant="ghost">
+
+        <Button
+          as={Link}
+          href="https://form.jotform.com/223431326725451"
+          className="mt-5"
+          color="primary"
+          variant="ghost"
+        >
           Hire Me
         </Button>
       </div>

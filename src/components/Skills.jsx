@@ -6,13 +6,13 @@ const Skills = () => {
       <h2 className="text-center text-slate-100 py-10 px-4">
         My Skills, Education, and Course
       </h2>
-      <div className="max-w-[1024px] mx-auto px-16">
+      <div className="max-w-[1024px] mx-auto px-6">
         <div className="">
           <Progress
             size="sm"
             radius="sm"
             classNames={{
-              base: "w-full lg:max-w-[850px]",
+              base: "w-full",
               track: "drop-shadow-md border border-default",
               indicator: "bg-gradient-to-r from-blue-500 to-green-500",
               label: "tracking-wider font-medium text-white",
@@ -28,7 +28,7 @@ const Skills = () => {
             size="sm"
             radius="sm"
             classNames={{
-              base: "w-full lg:max-w-[850px]",
+              base: "w-full",
               track: "drop-shadow-md border border-default",
               indicator: "bg-gradient-to-r from-blue-500 to-green-500",
               label: "tracking-wider font-medium text-white",
@@ -44,7 +44,7 @@ const Skills = () => {
             size="sm"
             radius="sm"
             classNames={{
-              base: "w-full lg:max-w-[850px]",
+              base: "w-full",
               track: "drop-shadow-md border border-default",
               indicator: "bg-gradient-to-r from-blue-500 to-green-500",
               label: "tracking-wider font-medium text-white",
@@ -60,7 +60,7 @@ const Skills = () => {
             size="sm"
             radius="sm"
             classNames={{
-              base: "w-full lg:max-w-[850px]",
+              base: "w-full",
               track: "drop-shadow-md border border-default",
               indicator: "bg-gradient-to-r from-blue-500 to-green-500",
               label: "tracking-wider font-medium text-white",
@@ -76,7 +76,7 @@ const Skills = () => {
             size="sm"
             radius="sm"
             classNames={{
-              base: "w-full lg:max-w-[850px]",
+              base: "w-full",
               track: "drop-shadow-md border border-default",
               indicator: "bg-gradient-to-r from-blue-500 to-green-500",
               label: "tracking-wider font-medium text-white",
@@ -92,7 +92,7 @@ const Skills = () => {
             size="sm"
             radius="sm"
             classNames={{
-              base: "w-full lg:max-w-[850px]",
+              base: "w-full",
               track: "drop-shadow-md border border-default",
               indicator: "bg-gradient-to-r from-blue-500 to-green-500",
               label: "tracking-wider font-medium text-white",
@@ -108,7 +108,7 @@ const Skills = () => {
             size="sm"
             radius="sm"
             classNames={{
-              base: "w-full lg:max-w-[850px]",
+              base: "w-full",
               track: "drop-shadow-md border border-default",
               indicator: "bg-gradient-to-r from-blue-500 to-green-500",
               label: "tracking-wider font-medium text-white",
@@ -124,7 +124,7 @@ const Skills = () => {
             size="sm"
             radius="sm"
             classNames={{
-              base: "w-full lg:max-w-[850px]",
+              base: "w-full",
               track: "drop-shadow-md border border-default",
               indicator: "bg-gradient-to-r from-blue-500 to-green-500",
               label: "tracking-wider font-medium text-white",
@@ -135,7 +135,7 @@ const Skills = () => {
             showValueLabel={true}
           />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-center items-center mt-20 text-white">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-center items-center pb-20 mt-20 text-white">
           <div className="flex flex-col gap-4 border border-slate-300 py-10 px-4">
             <h4>MA English Literature & Language</h4>
             <p>Year Completed: 2017</p>

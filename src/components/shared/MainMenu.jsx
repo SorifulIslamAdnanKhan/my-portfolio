@@ -15,18 +15,7 @@ import {
 const MainMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
-    "System",
-    "Deployments",
-    "My Settings",
-    "Team Settings",
-    "Help & Feedback",
-    "Log Out",
-  ];
+  const menuItems = ["Home", "About", "Projects", "Skills", "Blogs", "Contact"];
 
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen}>
@@ -36,30 +25,50 @@ const MainMenu = () => {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <p className="font-bold text-inherit">ACME</p>
+          <h3 className="font-bold text-blue-500">Adnan Khan</h3>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Features
-          </Link>
-        </NavbarItem>
         <NavbarItem isActive>
-          <Link href="#" aria-current="page">
-            Customers
+          <Link color="/" aria-current="page" href="#">
+            Home
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Integrations
+          <Link href="#about" color="foreground">
+            About
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#projects">
+            Projects
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#skills">
+            Skills
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#blog">
+            Blog
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#conatct">
+            Conatct
           </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
+          <Button
+            as={Link}
+            color="secondary"
+            href="https://drive.google.com/file/d/1S3hWrxBHHFP5DBbLQb94BJ4ldGRZBBtk/view?usp=sharing"
+            variant="flat"
+          >
             Resume
           </Button>
         </NavbarItem>
