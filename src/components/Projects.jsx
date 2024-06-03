@@ -12,9 +12,9 @@ const Projects = () => {
     <div>
       <h2 className="text-center py-10 px-4">My Projects</h2>
       <div className="max-w-[1024px] gap-4 grid grid-cols-12 grid-rows-2 mx-auto px-6">
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+        <Card className="col-span-12 md:col-span-6 lg:col-span-4 h-[300px]">
           <Image alt="Project One" className="z-0 w-full" src={projectSeven} />
-          <div className="mt-10 px-2">
+          <div className="mt-5 px-2">
             <h4 className="text-black">Smart Health & Medical Care App</h4>
           </div>
           <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
@@ -50,9 +50,9 @@ const Projects = () => {
             </Button>
           </CardFooter>
         </Card>
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+        <Card className="col-span-12 md:col-span-6 lg:col-span-4 h-[300px]">
           <Image alt="Project One" className="z-0 w-full" src={projectSix} />
-          <div className="mt-10 px-2">
+          <div className="mt-5 px-2">
             <h4 className="text-black">iEvent Landing Page</h4>
           </div>
           <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
@@ -88,9 +88,9 @@ const Projects = () => {
             </Button>
           </CardFooter>
         </Card>
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+        <Card className="col-span-12 md:col-span-6 lg:col-span-4 h-[300px]">
           <Image alt="Project One" className="z-0 w-full" src={projectOne} />
-          <div className="mt-10 px-2">
+          <div className="mt-5 px-2">
             <h4 className="text-black">Hands Fashion</h4>
           </div>
           <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
@@ -126,9 +126,9 @@ const Projects = () => {
             </Button>
           </CardFooter>
         </Card>
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+        <Card className="col-span-12 md:col-span-6 lg:col-span-4 h-[300px]">
           <Image alt="Project Two" className="z-0 w-full" src={projectTwo} />
-          <div className="mt-10 px-2">
+          <div className="mt-5 px-2">
             <h4 className="text-black px-2">Lawyer Service</h4>
           </div>
           <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
@@ -165,9 +165,9 @@ const Projects = () => {
           </CardFooter>
         </Card>
 
-        <Card className="w-full h-[300px] col-span-12 sm:col-span-4">
+        <Card className="w-full h-[300px] col-span-12 md:col-span-6 lg:col-span-4">
           <Image alt="Project Four" className="z-0 w-full" src={projectFour} />
-          <div className="mt-10 px-2">
+          <div className="mt-5 px-2">
             <h4 className="text-black">SPX Capsule App</h4>
           </div>
           <CardFooter className="absolute bg-white bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
@@ -203,9 +203,9 @@ const Projects = () => {
             </Button>
           </CardFooter>
         </Card>
-        <Card className="w-full h-[300px] col-span-12 sm:col-span-4">
+        <Card className="w-full h-[300px] col-span-12 md:col-span-6 lg:col-span-4">
           <Image alt="Project Five" className="z-0 w-full" src={projectFive} />
-          <div className="mt-10 px-2">
+          <div className="mt-5 px-2">
             <h4 className="text-black">Aya Tailwind & React Template</h4>
           </div>
           <CardFooter className="absolute bg-white bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
