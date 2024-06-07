@@ -1,13 +1,13 @@
 import Image from "next/image";
 import { Link, Button } from "@nextui-org/react";
-import adnanImageTwo from "@/assets/adnan-two.jpg";
+import aboutImage from "@/assets/about-image.jpg";
 
 const About = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2  justify-center items-center gap-16 px-6 mt-16 max-w-[1024px] mx-auto">
       <div className="w-full lg:max-w-[512px] max-auto order-last lg:order-first">
         <Image
-          src={adnanImageTwo}
+          src={aboutImage}
           className="w-full md:max-w-[450px] mx-auto"
           alt="K. M. Soriful Islam Adnan"
         />
@@ -30,8 +30,7 @@ const About = () => {
           With over four years of experience in content writing, I specialize in
           creating, editing, and optimizing content for SEO. I have written 120+
           articles for companies like UpdraftPlus, Brainstorm Force, and weDevs,
-          and authored over 40 technical documents. If you need a skilled web
-          developer or content writer, feel free to reach out.
+          and authored over 40 technical documents.
         </p>
         <p className="leading-loose">
           I am always eager to collaborate on exciting projects and share my
@@ -44,9 +43,8 @@ const About = () => {
           href="https://form.jotform.com/223431326725451"
           className="mt-5"
           color="primary"
-          variant="ghost"
         >
-          Hire Me
+          Contact Me
         </Button>
       </div>
     </div>

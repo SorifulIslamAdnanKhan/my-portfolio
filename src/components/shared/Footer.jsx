@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-slate-900 text-white">
       <div>
         <div className="grid grid-flow-col gap-4 justify-center p-4 mb-4">
           <a href="https://github.com/SorifulIslamAdnanKhan" target="_blank">

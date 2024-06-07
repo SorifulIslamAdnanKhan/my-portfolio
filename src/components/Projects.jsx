@@ -22,7 +22,7 @@ const Projects = () => {
               as={Link}
               href="https://smart-health-supply-chain-client.vercel.app/"
               className="text-tiny"
-              color="secondary"
+              color="primary"
               radius="full"
               size="sm"
             >
@@ -60,7 +60,7 @@ const Projects = () => {
               as={Link}
               href="https://i-event-landing-page.vercel.app/"
               className="text-tiny"
-              color="secondary"
+              color="primary"
               radius="full"
               size="sm"
             >
@@ -98,7 +98,7 @@ const Projects = () => {
               as={Link}
               href="https://ak-hands-fashion-shop.web.app/"
               className="text-tiny"
-              color="secondary"
+              color="primary"
               radius="full"
               size="sm"
             >
@@ -136,7 +136,7 @@ const Projects = () => {
               as={Link}
               href="https://akl-lawyer-service.web.app/"
               className="text-tiny"
-              color="secondary"
+              color="primary"
               radius="full"
               size="sm"
             >
@@ -175,7 +175,7 @@ const Projects = () => {
               as={Link}
               href="https://spx-rocket-app-7dcef.web.app/"
               className="text-tiny"
-              color="secondary"
+              color="primary"
               radius="full"
               size="sm"
             >
@@ -213,7 +213,7 @@ const Projects = () => {
               as={Link}
               href="https://aya-test-delta.vercel.app/"
               className="text-tiny"
-              color="secondary"
+              color="primary"
               radius="full"
               size="sm"
             >

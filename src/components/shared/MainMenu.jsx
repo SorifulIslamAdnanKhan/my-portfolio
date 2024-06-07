@@ -23,9 +23,9 @@ const MainMenu = () => {
         <NavbarItem>
           <Button
             as={Link}
-            color="secondary"
-            href="https://drive.google.com/file/d/1S3hWrxBHHFP5DBbLQb94BJ4ldGRZBBtk/view?usp=sharing"
-            variant="flat"
+            color="primary"
+            variant="ghost"
+            href="https://drive.google.com/file/d/1NCXVR_YGqj-was6EaQbwDaR43GT5LGry/view?usp=sharing"
           >
             Resume
           </Button>

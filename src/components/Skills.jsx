@@ -2,7 +2,7 @@ import { Progress } from "@nextui-org/react";
 
 const Skills = () => {
   return (
-    <div className="bg-black mt-16">
+    <div className="bg-slate-900 mt-16">
       <h2 className="text-center text-slate-100 py-10 px-4">
         My Skills, Education, and Course
       </h2>
@@ -14,7 +14,7 @@ const Skills = () => {
             classNames={{
               base: "w-full",
               track: "drop-shadow-md border border-default",
-              indicator: "bg-gradient-to-r from-blue-500 to-green-500",
+              indicator: "bg-gradient-to-r from-blue-500 to-blue-700",
               label: "tracking-wider font-medium text-white",
               value: "text-white",
             }}
@@ -30,7 +30,7 @@ const Skills = () => {
             classNames={{
               base: "w-full",
               track: "drop-shadow-md border border-default",
-              indicator: "bg-gradient-to-r from-blue-500 to-green-500",
+              indicator: "bg-gradient-to-r from-blue-500 to-blue-700",
               label: "tracking-wider font-medium text-white",
               value: "text-white",
             }}
@@ -46,7 +46,7 @@ const Skills = () => {
             classNames={{
               base: "w-full",
               track: "drop-shadow-md border border-default",
-              indicator: "bg-gradient-to-r from-blue-500 to-green-500",
+              indicator: "bg-gradient-to-r from-blue-500 to-blue-700",
               label: "tracking-wider font-medium text-white",
               value: "text-white",
             }}
@@ -62,7 +62,7 @@ const Skills = () => {
             classNames={{
               base: "w-full",
               track: "drop-shadow-md border border-default",
-              indicator: "bg-gradient-to-r from-blue-500 to-green-500",
+              indicator: "bg-gradient-to-r from-blue-500 to-blue-700",
               label: "tracking-wider font-medium text-white",
               value: "text-white",
             }}
@@ -78,7 +78,7 @@ const Skills = () => {
             classNames={{
               base: "w-full",
               track: "drop-shadow-md border border-default",
-              indicator: "bg-gradient-to-r from-blue-500 to-green-500",
+              indicator: "bg-gradient-to-r from-blue-500 to-blue-700",
               label: "tracking-wider font-medium text-white",
               value: "text-white",
             }}
@@ -94,7 +94,7 @@ const Skills = () => {
             classNames={{
               base: "w-full",
               track: "drop-shadow-md border border-default",
-              indicator: "bg-gradient-to-r from-blue-500 to-green-500",
+              indicator: "bg-gradient-to-r from-blue-500 to-blue-700",
               label: "tracking-wider font-medium text-white",
               value: "text-white",
             }}
@@ -110,7 +110,7 @@ const Skills = () => {
             classNames={{
               base: "w-full",
               track: "drop-shadow-md border border-default",
-              indicator: "bg-gradient-to-r from-blue-500 to-green-500",
+              indicator: "bg-gradient-to-r from-blue-500 to-blue-700",
               label: "tracking-wider font-medium text-white",
               value: "text-white",
             }}
@@ -126,7 +126,7 @@ const Skills = () => {
             classNames={{
               base: "w-full",
               track: "drop-shadow-md border border-default",
-              indicator: "bg-gradient-to-r from-blue-500 to-green-500",
+              indicator: "bg-gradient-to-r from-blue-500 to-blue-700",
               label: "tracking-wider font-medium text-white",
               value: "text-white",
             }}
@@ -136,12 +136,12 @@ const Skills = () => {
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-center items-center pb-20 mt-20 text-white">
-          <div className="flex flex-col gap-4 border border-slate-300 py-10 px-4">
+          <div className="flex flex-col gap-4 border border-slate-300 rounded-xl py-10 px-4">
             <h4>MA English Literature & Language</h4>
             <p>Year Completed: 2017</p>
             <p>National University, Bangladesh</p>
           </div>
-          <div className="flex flex-col gap-4 border border-slate-300 py-10 px-4">
+          <div className="flex flex-col gap-4 border border-slate-300 rounded-xl py-10 px-4">
             <h4>Complete Web Development Course Level 2</h4>
             <p>Year Completed: 2023</p>
             <p>Programming Hero</p>

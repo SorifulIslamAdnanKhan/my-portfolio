@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const CTA = () => {
   return (
-    <div className="bg-black mt-16 py-10">
+    <div className="bg-slate-900 mt-16 py-10">
       <div className="flex justify-center items-center gap-4">
         <Button
           as={Link}
@@ -16,9 +16,9 @@ const CTA = () => {
         </Button>
         <Button
           as={Link}
-          href="https://drive.google.com/file/d/1S3hWrxBHHFP5DBbLQb94BJ4ldGRZBBtk/view?usp=sharing"
+          href="https://drive.google.com/file/d/1NCXVR_YGqj-was6EaQbwDaR43GT5LGry/view?usp=sharing"
           className="mt-5"
-          color="secondary"
+          color="primary"
         >
           Resume
         </Button>
