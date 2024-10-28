@@ -142,8 +142,8 @@ const Skills = () => {
             <p>National University, Bangladesh</p>
           </div>
           <div className="flex flex-col gap-4 border border-slate-300 rounded-xl py-10 px-4">
-            <h4>Complete Web Development Course Level 2</h4>
-            <p>Year Completed: 2023</p>
+            <h4>Complete Web Development Course (Level 2)</h4>
+            <p>Year Completed: 2024</p>
             <p>Programming Hero</p>
           </div>
         </div>

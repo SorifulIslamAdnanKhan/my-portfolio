@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Card, CardFooter, Button, Link } from "@nextui-org/react";
 import projectOne from "@/assets/project-one.png";
-import projectTwo from "@/assets/project-two.png";
+import projectThree from "@/assets/project-three.png";
 import projectFour from "@/assets/project-four.png";
 import projectFive from "@/assets/project-five.png";
 import projectSix from "@/assets/project-six.png";
@@ -47,6 +47,34 @@ const Projects = () => {
               size="sm"
             >
               GitHub Server
+            </Button>
+          </CardFooter>
+        </Card>
+        <Card className="col-span-12 md:col-span-6 lg:col-span-4 h-[300px]">
+          <Image alt="Project One" className="z-0 w-full" src={projectThree} />
+          <div className="mt-5 px-2">
+            <h4 className="text-black">Cherub Agency Template</h4>
+          </div>
+          <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
+            <Button
+              as={Link}
+              href="https://cherub-main.vercel.app/"
+              className="text-tiny"
+              color="primary"
+              radius="full"
+              size="sm"
+            >
+              Live Site
+            </Button>
+            <Button
+              as={Link}
+              href="https://github.com/SorifulIslamAdnanKhan/cherub-react"
+              className="text-tiny"
+              color="primary"
+              radius="full"
+              size="sm"
+            >
+              GitHub Client
             </Button>
           </CardFooter>
         </Card>
@@ -126,44 +154,6 @@ const Projects = () => {
             </Button>
           </CardFooter>
         </Card>
-        <Card className="col-span-12 md:col-span-6 lg:col-span-4 h-[300px]">
-          <Image alt="Project Two" className="z-0 w-full" src={projectTwo} />
-          <div className="mt-5 px-2">
-            <h4 className="text-black px-2">Lawyer Service</h4>
-          </div>
-          <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
-            <Button
-              as={Link}
-              href="https://akl-lawyer-service.web.app/"
-              className="text-tiny"
-              color="primary"
-              radius="full"
-              size="sm"
-            >
-              Live Site
-            </Button>
-            <Button
-              as={Link}
-              href="https://github.com/SorifulIslamAdnanKhan/lawyer-service"
-              className="text-tiny"
-              color="primary"
-              radius="full"
-              size="sm"
-            >
-              GitHub Client
-            </Button>
-            <Button
-              as={Link}
-              href="https://github.com/SorifulIslamAdnanKhan/lawyer-service-server"
-              className="text-tiny"
-              color="primary"
-              radius="full"
-              size="sm"
-            >
-              GitHub Server
-            </Button>
-          </CardFooter>
-        </Card>
 
         <Card className="w-full h-[300px] col-span-12 md:col-span-6 lg:col-span-4">
           <Image alt="Project Four" className="z-0 w-full" src={projectFour} />
@@ -227,7 +217,7 @@ const Projects = () => {
               radius="full"
               size="sm"
             >
-              GitHub Repository
+              GitHub Client
             </Button>
           </CardFooter>
         </Card>
